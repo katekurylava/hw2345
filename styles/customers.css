@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* если вынести сюда шрифт основной, то он перезаписывает все шрифты, гораздо удобнее писать их к нужному элементу и видеть применился или нет */
+/* либо стоит указать *.customers-container ? */
+
+.customers-container {
+    font-family: Raleway, sans-serif;
+    height: 630px;
+    width: 1171px;
+    margin: auto;
+    padding: 50px 0 64px;
+}
+
+.customers-container-title {
+    height: 150px;
+    width: 1170px;
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+/* если ставлю пробел между классом и text, то стиль применяется и перезаписывает все предыдущие стили, а если тире, то действует только в рамках этой страницы  */
+
+.customers-container div {
+    width: 170px;
+    border-top: 0.5px solid #EC7979;
+    margin: 0 auto;
+  }
+
+.customers-container-subtitle {
+    height: 21px;
+    width: 1169px;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0px;
+    color: #86878B;
+}
+
+.wrapper-customers {
+    height: 336px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 83px auto 64px;
+}
+/* объясни пожалуйста видела как ты пишешь например h4.wrapper-customers, но у меня так не работает, что это за правило такое? и когда оно работает, а когда нет */
+
+.customers-container-comment {
+    width: 370px;
+    height: 336px;
+}
+
+.customers-container-text {
+    width: 370px;
+    height: 180px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+    background: #E2E2E2;
+    border-radius: 10px;
+}
+
+img.sign {
+    width: 30px;
+    height: 20px;
+    margin: 0px 270px 0px 70px;
+}
+
+img.avatar {
+    width: 70px;
+    height: 70px;
+    margin: 46px 30px 20px 0px;
+    float: left;
+}
+
+.wrapper-customers h4 {
+    width: 269px;
+    height: 54px;
+    font-family: OpenSans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 46px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-customers h5:not(.customers-container-text) {
+    width: 270px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 15px;
+    float: right;
+}

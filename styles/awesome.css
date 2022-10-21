@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main.awesome-container {
+  width: 1170px;
+  height: 665px;
+  font-family: Raleway, sans-serif;
+  margin: 50px auto 58px;
+}
+
+.awesome-container-title {
+  width: 1170px;
+  height: 150px;
+  font-weight: 400;
+  font-size: 36px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* почему у меня не работает такая запись main.awesome-container-title ниже ведь я  указываю section.awesome-container__articles? */
+
+.awesome-container div {
+  width: 170px;
+  border-top: 0.5px solid #EC7979;
+  margin: 0 auto;
+}
+
+.awesome-container-subtitle {
+  width: 1169px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #86878B;
+  margin: 40px auto 0;
+}
+
+section.awesome-container__articles {
+  width: 1170px;
+  height: 383px;
+  margin: 71px auto 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+article.awesome-container__articles article {
+  width: 370px;
+  height: 383px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+article.awesome-container__articles img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article.awesome-container__articles h4 {
+  height: 100px;
+  width: 369px;
+  font-family: OpenSans, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 8px;
+}
+
+article.awesome-container__articles h5 {
+  height: 105px;
+  width: 370px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0px;
+  line-height: 21px;
+  text-align: center;
+  border-bottom: none;
+}

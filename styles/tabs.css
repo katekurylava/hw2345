@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main.tabs-container {
+    font-family: OpenSans, sans-serif;
+    width: 1170px;
+    height: 540px;
+    margin: 99px auto 50px;
+}
+
+section.tabs {
+    width: 1170px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333;
+}
+/* шрифт из последнего файла со стилями customers.css перелаписывает шрифт во вкладках tabs, не понимаю зачем их вообще выносить, так ведь труднее отследить слетели они или нет */
+
+div.tab-first {
+    width: 203px;
+    height: 40px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.tab-second {
+    width: 184px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.tab-third {
+    width: 184px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.tab-empty {
+    width: 600px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+article.content {
+    width: 1170px;
+    height: 501px;
+    border: 1px solid #C6CBCD;
+    border-top: none;
+    margin: auto;
+    display: flex;
+}
+/* как сохранить заданную ширину и высоту 1170*501, если бордер добавляет по 2px с каждой стороны и увеличивает на веб-странице ширину и высоту до 1174*503? */
+
+section.left-side {
+    width: 700px;
+    height: 501px;
+}
+section.left-side h3 {
+    width: 570px;
+    height: 124px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 100px;
+}
+
+section.left-side h5 {
+    width: 570px;
+    height: 210px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    margin: 27px 30px 27px 100px;
+}
+
+button {
+    width: 270px;
+    height: 58px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFF;
+    background: #EC7979;
+    margin: 0px 330px 54px 100px;
+    border: none;
+}
+
+img.right-side {
+    width: 470px;
+    height: 501px;
+    display: block;
+    margin: 0;
+}
